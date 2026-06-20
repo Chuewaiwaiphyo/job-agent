@@ -289,26 +289,6 @@ The FAISS-based semantic retrieval approach successfully captures contextual mea
 This enables significantly more relevant job recommendations.
 
 ---
-
-## RAGAS Evaluation
-
-To assess retrieval quality, a test set of 27 job-related queries was evaluated using RAGAS.
-
-The evaluation measured:
-
-* Faithfulness
-* Answer Relevancy
-* Context Precision
-* Context Recall
-
-### Results
-
-![RAGAS Evaluation Results](images/ragas_results.png)
-
-The results demonstrate strong retrieval performance and support the effectiveness of semantic search for job recommendation tasks.
-
----
-
 ## Future Improvements
 
 * Hybrid Search (BM25 + Dense Retrieval)
